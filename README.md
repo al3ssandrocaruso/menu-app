@@ -3,8 +3,9 @@
 An Android application for browsing restaurant menus, selecting dishes, and sharing menus as QR
 codes. Built with Jetpack Compose and Kotlin coroutines against a static JSON data set.
 
-<img src="screenshots/light-mode.png" width="600">
-
+<p align="center">
+  <img src="screenshots/light-mode.png" width="600">
+</p>
 ## Overview
 
 The app fetches a list of restaurants, then a menu for the selected restaurant, and renders it in
@@ -192,15 +193,21 @@ environment variables.
 
 ### Dark mode
 
-<img src="screenshots/dark-mode.png" width="600">
+<p align="center">
+  <img src="screenshots/dark-mode.png" width="600">
+</p>
 
 ### Light mode
 
-<img src="screenshots/light-mode.png" width="600">
+<p align="center">
+  <img src="screenshots/light-mode.png" width="600">
+</p>
 
 ### QR code menu
 
-<img src="screenshots/qr-code-menu.png" width="600">
+<p align="center">
+  <img src="screenshots/qr-code-menu.png" width="600">
+</p>
 
 ## Dependencies
 
