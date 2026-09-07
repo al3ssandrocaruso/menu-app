@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MenuApp</string>
+    <string name="search">Cerca un risotrante</string>
+    <string name="Cart">Il mio carrello</string>
+    <string name="subTotal">Parziale</string>
+    <string name="delivery">Spedizione</string>
+    <string name="total">Totale</string>
+    <string name="conf">Conferma</string>
+    <string name="addFav">Aggiungi ai preferiti</string>
+    <string name="starters">Antipasti</string>
+    <string name="second">Secondi</string>
+    <string name="sides">Contorni</string>
+    <string name="fruits">Frutta</string>
+    <string name="Desserts">Desserts</string>
+    <string name="drinks">Bevande</string>
+    <string name="first">Primi piatti</string>
+    <string name="infoLess">Nascondi info</string>
+    <string name="infoPlus">Mostra info</string>
+    <string name="confim">Confirm</string>
+    <string name="QR">QR not valid</string>
+
+    <!-- Actions -->
+    <string name="retry">Riprova</string>
+    <string name="ok">OK</string>
+    <string name="accept">Accetta</string>
+    <string name="dismiss">Annulla</string>
+    <string name="remove_favourite">Rimuovi</string>
+
+    <!-- Loading / empty / error states -->
+    <string name="error_no_connection">Nessuna connessione a Internet. Controlla la rete e riprova.</string>
+    <string name="error_timeout">La richiesta è scaduta. Riprova.</string>
+    <string name="error_not_found">Questo ristorante non è presente nei dati.</string>
+    <string name="error_server">Server non raggiungibile. Riprova più tardi.</string>
+    <string name="error_malformed">Non è stato possibile leggere i dati del menu.</string>
+    <string name="error_unknown">Qualcosa è andato storto. Riprova.</string>
+    <string name="empty_search">Nessun ristorante corrisponde alla ricerca.</string>
+    <string name="empty_favourites">Non hai ancora ristoranti preferiti.</string>
+    <string name="empty_cart">Il carrello è vuoto.</string>
+    <string name="no_description">Nessuna descrizione disponibile.</string>
+    <string name="cart_other_restaurant">Sono presenti nel carrello prodotti di un altro ristorante.\nVuoi svuotare il carrello e ordinare da questo ristorante?</string>
+
+    <!-- QR scanning -->
+    <string name="qr_menu_found">Menu trovato per il ristorante %1$s.</string>
+    <string name="qr_open_in_app">Apri il menu nell\'app</string>
+    <string name="qr_download_pdf">Scarica il PDF</string>
+    <string name="qr_invalid_detail">Questo QR code non è un link a un menu MenuApp.</string>
+    <string name="camera_permission_required">Serve l\'accesso alla fotocamera per scansionare i QR code.</string>
+    <string name="download_started">Download avviato</string>
+    <string name="download_failed">Impossibile avviare il download</string>
+
+    <!-- Accessibility labels -->
+    <string name="cd_open_menu">Apri il menu</string>
+    <string name="cd_open_cart">Apri il carrello</string>
+    <string name="cd_add_one">Aggiungi uno</string>
+    <string name="cd_remove_one">Rimuovi uno</string>
+    <string name="cd_show_favourites">Mostra i preferiti</string>
+    <string name="cd_show_all">Mostra tutti i ristoranti</string>
+    <string name="cd_close_search">Chiudi la ricerca</string>
+    <string name="cd_scan_qr">Scansiona un QR code</string>
+    <string name="cd_share_menu">Condividi questo menu</string>
+    <string name="cd_menu_qr">QR code di questo menu</string>
+</resources>

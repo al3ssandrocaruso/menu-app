@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Android Studio / IntelliJ — developer-specific project metadata
+.idea/
+*.iml
+/captures
+
+# Native build output
+.externalNativeBuild
+.cxx
+
+# Signing material must never be committed
+*.jks
+*.keystore
+keystore.properties
+
+# OS
+.DS_Store

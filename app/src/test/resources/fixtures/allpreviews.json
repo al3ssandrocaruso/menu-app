@@ -1,0 +1,48 @@
+{
+   "Restaurants":[
+      {
+         "id":"0",
+         "name":"Healty Color",
+         "type":"Healty",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/logos/logohealtycolor.png",
+         "price":"€€",
+         "address": "Piazza Carlo Felice 22",
+         "city":"Torino",
+         "phone":"011 7652435",
+         "delivery":"2.00"
+      },
+      {
+         "id":"1",
+         "name":"Smash Burger",
+         "type":"Aus Burger",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/logos/logosmash.png",
+         "price":"€",
+         "address": "Via Emanuele Filiberto 12",
+         "city":"Roma",
+         "phone":"06 69348366",
+         "delivery":"1.50"
+      },
+      {
+         "id":"2",
+         "name":"Sugo & Basilico",
+         "type":"Italian",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/logos/logosugo.png",
+         "price":"€€€",
+         "address": "Via della Bufalotta 330",
+         "city":"Roma",
+         "phone":"06 87677432",
+         "delivery":"1.00"
+      },
+      {
+         "id":"3",
+         "name":"Billy Tacos",
+         "type":"Mexican",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/logos/billytacoslogo.png",
+         "price":"€",
+         "address": "Via di Valle Aurelia 30",
+         "city":"Roma",
+         "phone":"06 96564332",
+         "delivery":"0.50"
+      }
+   ]
+}

@@ -1,0 +1,120 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.ksp)
+}
+
+android {
+    namespace 'com.alessandrocaruso.menuapp'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.alessandrocaruso.menuapp"
+        minSdk 28
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
+
+        // Single source of truth for the remote data set. Overridable per build type
+        // so the app can be pointed at a different data repository without code changes.
+        buildConfigField "String", "DATA_BASE_URL",
+                '"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/"'
+        buildConfigField "String", "MENU_PDF_BASE_URL",
+                '"https://github.com/al3ssandrocaruso/restaurantsappdata/raw/main/menus/PDFsMenu/"'
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    buildFeatures {
+        compose true
+        buildConfig true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion libs.versions.composeCompiler.get()
+    }
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+            returnDefaultValues = true
+        }
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+    lint {
+        warningsAsErrors false
+        abortOnError true
+        // Generated report is uploaded by CI.
+        htmlReport true
+        xmlReport true
+    }
+}
+
+dependencies {
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.activity.compose
+    implementation libs.androidx.lifecycle.viewmodel.compose
+    implementation libs.androidx.lifecycle.runtime.compose
+
+    implementation platform(libs.compose.bom)
+    implementation libs.compose.ui
+    implementation libs.compose.ui.tooling.preview
+    implementation libs.compose.material
+    // Only Add/Close/Search/ArrowForward are used, and all four ship in the core icon set
+    // bundled with compose material, so material-icons-extended is not needed.
+
+    // HTTP + JSON
+    implementation libs.volley
+    implementation libs.gson
+
+    // Image loading (Compose-native, handles caching/downsampling/lifecycle)
+    implementation libs.coil.compose
+
+    // QR: ZXing both generates and decodes
+    implementation libs.zxing.core
+
+    // CameraX preview + frame analysis for the scanner
+    implementation libs.camerax.camera2
+    implementation libs.camerax.lifecycle
+    implementation libs.camerax.view
+
+    // Local persistence for favourites
+    implementation libs.room.runtime
+    implementation libs.room.ktx
+    ksp libs.room.compiler
+
+    testImplementation libs.junit
+    testImplementation libs.coroutines.test
+
+    androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.test.core
+    // Required at runtime by the testInstrumentationRunner declared above.
+    androidTestImplementation libs.androidx.test.runner
+    androidTestImplementation platform(libs.compose.bom)
+    androidTestImplementation libs.compose.ui.test.junit4
+
+    debugImplementation libs.compose.ui.tooling
+    debugImplementation libs.compose.ui.test.manifest
+}

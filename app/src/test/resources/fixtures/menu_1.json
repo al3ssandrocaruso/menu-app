@@ -1,0 +1,168 @@
+{
+   "id":"1",
+   "ristorante":"Smash Burger",
+   "starters":[
+      {
+         "name":"Nachos",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/nachos.png",
+         "description":"Tortillas di mais",
+         "price":"4.50"
+      },
+      {
+         "name":"Cheddar Nachos",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/cheddarnachos.png",
+         "description":"Tortillas di mais e salsa cheddar",
+         "price":"5.00"
+      }, 
+      {
+         "name":"Spicy Nachos",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/spicynachos.png",
+         "description":"Tortillas di mais, chili, jalapenos e panna acida",
+         "price":"6.00"
+      }
+   ],
+   "firstCourses":[
+      {
+         "name":"Smokey Smashed",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/smokey.png",
+         "description":"Smashed hamburger di bovino, cheddar, bacon croccante, crispy onion e salsa smokey baconnaise",
+         "price":"8.00"
+      },
+      {
+         "name":"BBQ Smashed",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/bbq.png",
+         "description":"Smashed hamburger di bovino, cheddar, bacon croccante, lattuga, pomodoro ramato, cipolla di Tropea caramellata e salsa bbq",
+         "price":"8.00"
+      },
+      {
+         "name":"Unoriginal Smash",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/unoriginal.png",
+         "description":"Smashed hamburger di bovino, cheddar, lattuga, pomodoro, cetriolini sott'aceto e salsa original",
+         "price":"7.75"
+      },
+      {
+         "name":"Chili Smashed",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/chili.png",
+         "description":"Smashed hamburger di bovino, chili con carne, cheddar e bacon croccante",
+         "price":"8.50"
+      },
+      {
+         "name":"Honeymoon Smash",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/honey.png",
+         "description":"Smashed hamburger di bovino, cheddar, bacon croccante, lattuga iceberg e senape al miele",
+         "price":"7.50"
+      }     
+   ],
+   "secondCourses":[
+      {
+         "name":"Chicken Salad",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/chickensalad.png",
+         "description":"Base di valeriana, tagliata di pollo, zucchine, carote, cetriolo, olive nere, feta, tutto condito con glassa di aceto",
+         "price":"8.00"
+      },
+      {
+         "name":"Sping Salad",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/springsalad.png",
+         "description":"Base di farro, tagliata di pollo, avocado, pico de gallo, olive nere, mais e salsa lime",
+         "price":"7.50"
+      },
+      {
+         "name":"Tofu Salad",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/tofusalad.png",
+         "description":"Base di lattuga condita con la nostra home-made senape al miele, tofu, broccoli, pomodori, olive, ceci",
+         "price":"8.50"
+      }
+   ],
+   "sides":[
+      {
+         "name":"French Fries",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/patatine.png",
+         "description":"Patatine fritte nell'olio",
+         "price":"3.80"
+      },
+      {
+         "name":"Onion Rings",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/onion.png",
+         "description":"Anelli di cipolla",
+         "price":"4.20"
+      },
+      {
+         "name":"Coleslaw",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/coleslaw.png",
+         "description":"Insalata di cavolo cappuccio crudo",
+         "price":"4.20"
+      }
+   ],
+   "fruits":[
+      {
+         "name":"Macedonia",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/macedonia.png",
+         "description":"Preparazione di frutti misti crudi, variamente conditi",
+         "price":"8.90"
+      },
+      {
+         "name":"Papaya",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/papaya.png",
+         "description":"Piatto di papaya fresca tagliata alla julienne",
+         "price":"5.90"
+      },
+      {
+         "name":"Mango",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/mango.png",
+         "description":"Piatto con mango fresco tagliato a cubetti",
+         "price":"5.90"
+      }
+   ],
+   "desserts":[
+      {
+         "name":"Bun Nutella",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/bun.png",
+         "description":"Panino farcito con crema di nocciole",
+         "price":"4.50"
+      },
+      {
+         "name":"Tandem",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/tandem.png",
+         "description":"Gelato al gusto di vaniglia con panna e al cacao, racchiuso da un lato da due biscotti con gocce di cioccolato, dall’altro da una copertura al cacao con granelle di biscotti alla vaniglia e al cacao",
+         "price":"3.20"
+      },
+      {
+         "name":"Loacker Biscotto",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/loacker.png",
+         "description":"Cremoso gelato alla nocciola e al cacao racchiuso tra due gustosi biscotti.",
+         "price":"3.20"
+      }
+   ],
+   "drinks":[
+      {
+         "name":"Acqua Naturale",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/water.png",
+         "description":"50cl - Acqua liscia",
+         "price":"1.80"
+      },
+      {
+         "name":"Acqua Frizzante",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/sparkly.png",
+         "description":"50cl - Acqua Effervescente Naturale",
+         "price":"1.80"
+      },
+      {
+         "name":"Coca-Cola",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/cocacola.png",
+         "description":"33cl - Bottiglietta in vetro",
+         "price":"3.50"
+      },
+      {
+         "name":"Tennent's",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/tennets.png",
+         "description":"33cl - Con una spuma fine e compatta, la Tennent's è una birra dal corpo pieno e denso, dal colore giallo intenso con riflessi ramati",
+         "price":"4.50"
+      },
+      {
+         "name":"Ichnusa",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SmashBurger/ichnusa.png",
+         "description":"33cl - Lager non filtrata, aroma fruttato a bassa fermentazione",
+         "price":"4.00"
+      }
+   ]
+}

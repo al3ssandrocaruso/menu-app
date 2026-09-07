@@ -1,0 +1,150 @@
+{
+   "id":"0",
+   "ristorante":"Healty Color",
+   "starters":[
+      {
+         "name":"Guacamole Chips",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/guacamolechips.png",
+         "description":"Nachos barbebietola con guacamole",
+         "price":"5.90"
+      },
+      {
+         "name":"Orange Edamame",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/orangeedamame.png",
+         "description":"Edamame all'arancia con salsa teriyaki",
+         "price":"4.90"
+      },
+      {
+         "name":"Veggie Nuggets",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/veggienuggets.jpg",
+         "description":"Nuggets 100% vegetali fritti ad aria con maionese vegana al lime",
+         "price":"6.90"
+      },
+      {
+         "name":"French Fries",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/patate.png",
+         "description":"Patatine fritte ad aria",
+         "price":"4.90"
+      }
+   ],
+   "firstCourses":[
+      {
+         "name":"Red Poke",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/redpoke.png",
+         "description":"PROTEINA: Tartare di Fassona PLUS: Verza rossa, Goma Wakame, Edamame, Pomodori secchi, noci BASE: Riso SALSA: Teriyaki al tartufo",
+         "price":"11.90"
+      },
+      {
+         "name":"Veggie Wok",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/veggiewok.png",
+         "description":"Riso saltato con carote e zucchine alla julienne e soia, con salsa teriyaki e sesamo",
+         "price":"7.90"
+      },
+      {
+         "name":"Salmon Wok",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/salmonwok.png",
+         "description":"Riso saltato con carote e zucchine alla julienne e soia, con salmone scottato, salsa teriyaki e sesamo",
+         "price":"9.90"
+      },
+      {
+         "name":"Chicken Wok",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/chickenwok.png",
+         "description":"Riso saltato con carote e zucchine alla julienne e soia, con pollo, salsa teriyaki e sesamo",
+         "price":"8.90"
+      }
+   ],
+   "secondCourses":[
+      {
+         "name":"Beyond Burger",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/beyondburger.png",
+         "description":"Proteina: Burger 100% vegetariano BEYOND MEAT Plus: Iceberg, Pomodoro, Teriyaki sauce",
+         "price":"12.90"
+      },
+      {
+         "name":"Chicken Burger",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/chickenburger.png",
+         "description":"PROTEINA: Pollo PLUS: Avocado, Carote, Iceberg",
+         "price":"9.90"
+      },
+      {
+         "name":"Beyond Wrap",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/beyondwrap.png",
+         "description":"Proteina: Burger 100% vegetale BEYOND MEAT Plus: Iceberg, Pomodoro, Teriyaki sauce",
+         "price":"8.90"
+      },
+      {
+         "name":"Salmon Wrap",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/salmonwrap.png",
+         "description":"PROTEINA: Salmone Scottato PLUS: Avocado, Pomodoro, Rucola, Teriyaki sauce, Maionese piccante",
+         "price":"6.90"
+      }
+   ],
+   "sides":[
+      {
+         "name":"Salmon Tartare",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/salmontartare.png",
+         "description":"Tartare di salmone marinato con menta e lime, mango, olio EVO",
+         "price":"10.90"
+      },
+      {
+         "name":"Tuna Tartare",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/tunatartare.png",
+         "description":"Tartare di tonno marinato con olio di sesamo, avocado e mandorle",
+         "price":"11.90"
+      }
+   ],
+   "fruits":[
+      {
+         "name":"Macedonia",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/macedonia.png",
+         "description":"Preparazione di frutti misti crudi, variamente conditi",
+         "price":"8.90"
+      },
+      {
+         "name":"Spiedini di frutta",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/spiedinifrutta.png",
+         "description":"Diverse tipologie di frutti servite tagliate a pezzetti",
+         "price":"9.90"
+      }
+   ],
+   "desserts":[
+      {
+         "name":"Cheescake",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/cheesecake.png",
+         "description":"Torta Cheesecake con topping ai frutti di bosco o nutella",
+         "price":"5.90"
+      },
+      {
+         "name":"Chocolate Cake",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/chocolatecake.png",
+         "description":"Pancake con crema di nocciole, lamponi, banana e granella di pistacchio Size: Regular (2 Strati)",
+         "price":"5.90"
+      }
+   ],
+   "drinks":[
+      {
+         "name":"Healty Water",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/healtywater.png",
+         "description":"50cl - Acqua liscia in Tetrapak 100% riciclabile",
+         "price":"2.00"
+      },
+      {
+         "name":"Fanta",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/fanta.png",
+         "description":"33cl - Bottiglietta in vetro",
+         "price":"3.00"
+      },
+      {
+         "name":"Coca-Cola",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/cocacola.png",
+         "description":"33cl - Bottiglietta in vetro",
+         "price":"3.00"
+      },
+      {
+         "name":"Healty Beer",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/HealtyColor/beer.png",
+         "description":"Birra Saison artigianale autoprodotta di ispirazione belga a base di zenzero - Alc 5%",
+         "price":"4.00"
+      }
+   ]
+}

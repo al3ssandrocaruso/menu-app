@@ -1,0 +1,174 @@
+{
+   "id":"2",
+   "ristorante":"Sugo & Basilico",
+   "starters":[
+      {
+         "name":"Arrosticini di Pecora",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/arrosticini.png",
+         "description":"Arrosticini di pecora, 10 pezzi",
+         "price":"5.50"
+      },
+      {
+         "name":"Bruschette al pomodoro",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/bruschette.jpeg",
+         "description":"1 pezzo",
+         "price":"3.50"
+      },     
+      {
+         "name":"Polpette al sugo di Pomodoro",
+        "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/polpette.png",
+          "description":"10 pezzi",
+         "price":"10.00"
+      },
+      {
+         "name":"Prosciutto e mozzarella",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/prosciutto_e_mozzarella.jpeg",
+         "description":"Un antipasto fresco e squisito",
+         "price":"12.00"
+      },   
+      {
+         "name":"Suppli al Telefono",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/suppli.jpeg",
+         "description":"1 pezzo",
+         "price":"2.00"
+      }
+   ],
+   "firstCourses":[
+      {
+         "name":"Gricia",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/gricia.jpeg",
+         "description":"Rigatoni, Guanciale, Pecorino Romano, Pepe nero e Sale Marino",
+         "price":"11.00"
+      },
+      {
+         "name":"Amatriciana",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/amatriciana.jpeg",
+         "description":"Spaghetti, Guanciale, Pomodori, Olio extravergine, Pepe Nero e Sale Marino",
+         "price":"12.00"
+      },
+      {
+         "name":"Cacio e Pepe",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/cacio.jpeg",
+         "description":"Spaghetti, Pepe Nero e Pecorino Romano",
+         "price":"11.50"
+      },
+      {
+         "name":"Carbonara",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/carbonara.jpeg",
+         "description":"Spaghetti, Uova, Pecorino Romano, Guanciale, Pepe Nero e Sale Marino",
+         "price":"13.00"
+      },
+      {
+         "name":"Tonnarello Sugo",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/tonnarello.jpeg",
+         "description":"Tonnarelli, Pomodori, Polpette di suino e Sale marino",
+         "price":"14.00"
+      }
+   ],
+   "secondCourses":[
+      {
+         "name":"Straccetti di manzo",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/straccetti.jpeg",
+         "description":"Manzo, Farina 00, Olio extravergine d'oliva, Rucola, Parmigiano Reggiano e Sale Marino",
+         "price":"12.00"
+      },
+      {
+         "name":"Saltimbocca",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/saltimbocca.jpeg",
+         "description":"Fettine di vitello, Prosciutto crudo, Burro, Salvia, Farina 00, Pepe Nero e Olio extravergine d'oliva",
+         "price":"11.00"
+      },
+      {
+         "name":"Scaloppine al limone",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/scaloppine.jpeg",
+         "description":"Fettine di vitello, Succo di Limone, Pepe Nero e Sale fino",
+         "price":"10.00"
+      },
+      {
+         "name":"Petto di pollo",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/pollo.jpeg",
+         "description":"Pollo, Olio extravergine d'oliva e Sale fino",
+         "price":"9.00"
+      },
+      {
+         "name":"Bistecca Fiorentina",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/fiorentina.jpeg",
+         "description":"Prezzo al kg",
+         "price":"35.00"
+      }
+   ],
+   "sides":[
+      {
+         "name":"Cicoria",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/cicoria.jpeg",
+         "description":"Cicoria ripassata in padella con un pizzico di peperoncino",
+         "price":"5.00"
+      },
+      {
+         "name":"Patate al forno",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/patate.jpeg",
+         "description":"Patate cotte al forno condite con un filo di olio extravergine di oliva",
+         "price":"5.00"
+      },
+      {
+         "name":"Broccoletti",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/broccoletti.jpeg",
+         "description":"Broccoletti ripassati in padella con aglio, olio e peperoncino",
+         "price":"5.00"
+      }
+   ],
+   "fruits":[
+      {
+         "name":"Macedonia",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/macedonia.jpeg",
+         "description":"Fragole, Succo di Limone, Melone, Banane e Ananas",
+         "price":"7.00"
+      },
+      {
+         "name":"Ananas",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/ananas.jpeg",
+         "description":"Ananas fresco",
+         "price":"5.00"
+      }
+   ],
+   "desserts":[
+      {
+         "name":"Cheescake",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/cheesecake.png",
+         "description":"Cheesecake con salsa alla fragola",
+         "price":"6.40"
+      },
+      {
+         "name":"Torta della Nonna",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/tortanonna.png",
+         "description":"Dolce classico a base di pasta frolla, farcito con crema pasticcera e ricoperto di pinoli",
+         "price":"8.00"
+      },
+      {
+         "name":"Tiramisù",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/tiramisu.png",
+         "description":"Crema al mascarpone e savoiardi al caffè",
+         "price":"6.00"
+      }
+   ],
+   "drinks":[
+      {
+         "name":"Acqua Naturale",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/water.png",
+         "description":"50cl - Acqua liscia",
+         "price":"1.30"
+      },
+      {
+         "name":"Acqua Frizzante",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/sparkly.png",
+         "description":"50cl - Acqua Effervescente Naturale",
+         "price":"1.30"
+      },
+      {
+         "name":"Coca-Cola",
+         "poster":"https://raw.githubusercontent.com/al3ssandrocaruso/restaurantsappdata/main/menus/menuimages/SUGO/cocacola.png",
+         "description":"33cl - Lattina",
+         "price":"3.20"
+      }
+   ]
+}

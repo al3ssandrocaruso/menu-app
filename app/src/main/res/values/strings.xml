@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">MenuApp</string>
+    <string name="search">Search a restaurant</string>
+    <string name="Cart">My cart</string>
+    <string name="subTotal">Subtotal</string>
+    <string name="delivery">Delivery</string>
+    <string name="total">Total</string>
+    <string name="conf">Confirm</string>
+    <string name="addFav">Add to favorite</string>
+    <string name="starters">Starters</string>
+    <string name="first">First courses</string>
+    <string name="second">Second courses</string>
+    <string name="sides">Sides</string>
+    <string name="fruits">Fruits</string>
+    <string name="Desserts">Desserts</string>
+    <string name="drinks">Drinks</string>
+    <string name="infoPlus">More info</string>
+    <string name="infoLess">Less info</string>
+    <string name="confim">Confirm</string>
+    <string name="QR">QR not valid</string>
+
+    <!-- Actions -->
+    <string name="retry">Retry</string>
+    <string name="ok">OK</string>
+    <string name="accept">Accept</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="remove_favourite">Remove</string>
+
+    <!-- Loading / empty / error states -->
+    <string name="error_no_connection">No internet connection. Check your network and try again.</string>
+    <string name="error_timeout">The request timed out. Please try again.</string>
+    <string name="error_not_found">This restaurant is not in the data set.</string>
+    <string name="error_server">The server could not be reached. Please try again later.</string>
+    <string name="error_malformed">The menu data could not be read.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+    <string name="empty_search">No restaurant matches your search.</string>
+    <string name="empty_favourites">You have no favourite restaurants yet.</string>
+    <string name="empty_cart">Your cart is empty.</string>
+    <string name="no_description">No description available.</string>
+    <string name="cart_other_restaurant">Your cart contains dishes from another restaurant.\nEmpty it and order from this one?</string>
+
+    <!-- QR scanning -->
+    <string name="qr_menu_found">Menu found for restaurant %1$s.</string>
+    <string name="qr_open_in_app">Open menu in app</string>
+    <string name="qr_download_pdf">Download PDF</string>
+    <string name="qr_invalid_detail">This QR code is not a MenuApp menu link.</string>
+    <string name="camera_permission_required">Camera access is needed to scan QR codes.</string>
+    <string name="download_started">Download started</string>
+    <string name="download_failed">Download could not be started</string>
+
+    <!-- Accessibility labels -->
+    <string name="cd_open_menu">Open menu</string>
+    <string name="cd_open_cart">Open cart</string>
+    <string name="cd_add_one">Add one</string>
+    <string name="cd_remove_one">Remove one</string>
+    <string name="cd_show_favourites">Show favourites</string>
+    <string name="cd_show_all">Show all restaurants</string>
+    <string name="cd_close_search">Close search</string>
+    <string name="cd_scan_qr">Scan a QR code</string>
+    <string name="cd_share_menu">Share this menu</string>
+    <string name="cd_menu_qr">QR code for this menu</string>
+</resources>
